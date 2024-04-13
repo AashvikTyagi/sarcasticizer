@@ -18,4 +18,4 @@ sarcasticizer does NOT steal your data. compile it for yourself if you so care a
 honestly incredibly useful for online debates!
 
 
-`''.join([normal[letter].upper() if letter%2 else normal[letter].lower() for letter in range(0,len(normal))])`
+for a string `normal`, `''.join([normal[letter].upper() if letter%2 else normal[letter].lower() for letter in range(0,len(normal))])`
